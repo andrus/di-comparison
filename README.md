@@ -20,6 +20,7 @@ $ find . -name '*.jar' |xargs ls -l |grep -v original |grep -v common
 $ time java -jar ./cayennedi/target/cayennedi-1.0-SNAPSHOT.jar
 $ time java -jar ./dagger/target/dagger-1.0-SNAPSHOT.jar
 $ time java -jar ./guice/target/guice-1.0-SNAPSHOT.jar
+$ time java -jar ./springboot/target/springboot-1.0-SNAPSHOT.jar
 ```
 
 ## Results
