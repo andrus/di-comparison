@@ -5,5 +5,5 @@ Guice.
 
 ## Idea Setup
 
-Go to "Preferences > Annoration Processors", and check "Enable Annotation
+Go to "Preferences > Annotation Processors", and check "Enable Annotation
 Processing".
