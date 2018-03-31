@@ -27,7 +27,7 @@ $ time java -jar ./springboot/target/springboot-1.0-SNAPSHOT.jar
 
 |DI|Jar with Dependencies, KB|Compile Time, ms|Exec time, ms|
 |----|-----|-----|----|
-|Cayenne DI|79|93|166|
 |Dagger| 51|1320|122|
+|Cayenne DI|79|93|166|
 |Guice|3440|483|353|
 |Spring Boot|6993|527|1628|
