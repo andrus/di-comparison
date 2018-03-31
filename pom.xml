@@ -16,12 +16,15 @@
 
         <dagger.version>2.15</dagger.version>
         <guice.version>4.2.0</guice.version>
+        <cayenne.version>4.0.B2</cayenne.version>
+
     </properties>
 
     <modules>
         <module>common</module>
         <module>dagger</module>
         <module>guice</module>
+        <module>cayennedi</module>
     </modules>
 
     <build>
