@@ -24,8 +24,9 @@ $ time java -jar ./guice/target/guice-1.0-SNAPSHOT.jar
 
 ## Results
 
-|DI|Jar with Dependencies, KB|Exec time, ms|
-|----|-----|-----|
-|Cayenne DI|78.9|166|
-|Dagger| 51.3|122|
-|Guice|3439.7|353|
+|DI|Jar with Dependencies, KB|Compile Time, ms|Exec time, ms|
+|----|-----|-----|----|
+|Cayenne DI|79|93|166|
+|Dagger| 51|1320|122|
+|Guice|3440|483|353|
+|Spring Boot|6993|527|1628|
