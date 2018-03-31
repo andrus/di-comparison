@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.objectstyle.dagger</groupId>
-        <artifactId>dagger-sandbox</artifactId>
+        <groupId>org.objectstyle.di</groupId>
+        <artifactId>di-comparison</artifactId>
          <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -21,7 +21,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.objectstyle.dagger</groupId>
+            <groupId>org.objectstyle.di</groupId>
             <artifactId>common</artifactId>
             <version>${project.version}</version>
         </dependency>

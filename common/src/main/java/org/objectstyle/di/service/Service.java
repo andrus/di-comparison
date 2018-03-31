@@ -1,4 +1,4 @@
-package org.objectstyle.dagger.service;
+package org.objectstyle.di.service;
 
 
 public interface Service {

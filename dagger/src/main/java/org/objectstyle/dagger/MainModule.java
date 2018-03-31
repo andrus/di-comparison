@@ -2,10 +2,10 @@ package org.objectstyle.dagger;
 
 import dagger.Module;
 import dagger.Provides;
-import org.objectstyle.dagger.service.Service;
-import org.objectstyle.dagger.service.ServiceImpl;
-import org.objectstyle.dagger.service.SubService;
-import org.objectstyle.dagger.service.SubServiceImpl;
+import org.objectstyle.di.service.Service;
+import org.objectstyle.di.service.ServiceImpl;
+import org.objectstyle.di.service.SubService;
+import org.objectstyle.di.service.SubServiceImpl;
 
 import javax.inject.Singleton;
 

@@ -1,7 +1,7 @@
 package org.objectstyle.cayenne;
 
 import org.apache.cayenne.di.DIBootstrap;
-import org.objectstyle.dagger.service.Service;
+import org.objectstyle.di.service.Service;
 
 public class Main {
 

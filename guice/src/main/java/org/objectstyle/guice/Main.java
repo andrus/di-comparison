@@ -1,7 +1,7 @@
 package org.objectstyle.guice;
 
 import com.google.inject.Guice;
-import org.objectstyle.dagger.service.Service;
+import org.objectstyle.di.service.Service;
 
 public class Main {
 

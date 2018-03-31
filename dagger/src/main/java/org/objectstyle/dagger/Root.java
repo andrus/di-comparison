@@ -1,7 +1,7 @@
 package org.objectstyle.dagger;
 
 import dagger.Component;
-import org.objectstyle.dagger.service.Service;
+import org.objectstyle.di.service.Service;
 
 import javax.inject.Singleton;
 
