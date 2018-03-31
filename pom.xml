@@ -28,6 +28,7 @@
         <module>cayennedi</module>
         <module>spring</module>
         <module>springboot</module>
+        <module>owb</module>
     </modules>
 
     <build>
