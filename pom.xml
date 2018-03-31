@@ -4,36 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.objectstyle</groupId>
+    <groupId>org.objectstyle.dagger</groupId>
     <artifactId>dagger-sandbox</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <dagger.version>2.15</dagger.version>
-
-        <main.class>org.objectstyle.dagger.Main</main.class>
+        <guice.version>4.2</guice.version>
     </properties>
 
-
-    <dependencies>
-        <dependency>
-            <groupId>com.google.dagger</groupId>
-            <artifactId>dagger</artifactId>
-            <version>${dagger.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.dagger</groupId>
-            <artifactId>dagger-compiler</artifactId>
-            <version>${dagger.version}</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
-
+    <modules>
+        <module>common</module>
+        <module>dagger</module>
+        <module>guice</module>
+    </modules>
 
     <build>
         <pluginManagement>
@@ -88,12 +77,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-
-        <plugins>
-            <plugin>
-                <artifactId>maven-shade-plugin</artifactId>
-            </plugin>
-        </plugins>
     </build>
 
 </project>
