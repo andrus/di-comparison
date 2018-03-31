@@ -1,7 +1,7 @@
 # DI Containers Comparision
 
-Comparing a simple app written on top of Cayenne DI, Dagger 2, and
-Guice.
+Comparing a simple app written with Cayenne DI, Dagger 2,
+Guice and SpringBoot.
 
 ## IntelliJ IDEA Setup
 
