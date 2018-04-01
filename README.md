@@ -31,7 +31,7 @@ $ time java -jar ./springboot/target/springboot-1.0-SNAPSHOT.jar
 
 ## Results
 
-|DI|Compile/Package Time, ms|Jar with Deps Size, KB|:arrow_down: Exec time, ms|
+|DI|Build Time, ms|Jar w/Deps Size, KB|:arrow_down: Exec time, ms|
 |----|-----|-----|----|
 |Dagger|1267|51|121|
 |Cayenne DI|91|79|180|
