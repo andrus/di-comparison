@@ -24,6 +24,7 @@ $ find . -name '*.jar' |xargs ls -l |grep -v original |grep -v common
 $ time java -jar ./cayennedi/target/cayennedi-1.0-SNAPSHOT.jar
 $ time java -jar ./dagger/target/dagger-1.0-SNAPSHOT.jar
 $ time java -jar ./guice/target/guice-1.0-SNAPSHOT.jar
+$ time java -jar ./owb/target/owb-1.0-SNAPSHOT.jar
 $ time java -jar ./spring/target/spring-1.0-SNAPSHOT.jar
 $ time java -jar ./springboot/target/springboot-1.0-SNAPSHOT.jar
 ```
@@ -32,8 +33,9 @@ $ time java -jar ./springboot/target/springboot-1.0-SNAPSHOT.jar
 
 |DI|Compile/Package Time, ms|Jar with Dependencies, KB|Exec time, ms|
 |----|-----|-----|----|
-|Dagger|1297|51|121|
+|Dagger|1267|51|121|
 |Cayenne DI|91|79|180|
-|Guice|477|3440|358|
-|Spring|468|3545|506|
-|Spring Boot|441|6993|1549|
+|Guice|487|3440|358|
+|OpenWebBeans|361|1261|460|
+|Spring|486|3545|506|
+|Spring Boot|435|6993|1549|
