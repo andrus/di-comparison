@@ -1,0 +1,6 @@
+# singleton service factory configuration
+singletons:
+- org.objectstyle.di.service.SubService:
+  - org.objectstyle.di.service.SubServiceImpl
+- org.objectstyle.di.service.Service:
+  - org.objectstyle.di.service.ServiceImpl
