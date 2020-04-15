@@ -10,12 +10,8 @@ Processing".
 ## "Benchmark"
 
 ```
-# Warmup build
+# Build (can't compare build times, as module ordering affects the results)
 mvn clean package
-
-# Measure assembly time with "-o" to ensure loading dependencies over
-# the network does not interfere...
-mvn clean && mvn package -o
 ```
 
 ```
