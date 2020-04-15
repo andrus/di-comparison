@@ -11,23 +11,29 @@ Processing".
 
 ```
 # Warmup build
-$ mvn clean package
+mvn clean package
 
 # Measure assembly time with "-o" to ensure loading dependencies over
 # the network does not interfere...
-$ mvn clean package -o
+mvn clean && mvn package -o
+```
 
+```
 # Get the file sizes
-$ find . -name '*.jar' |xargs ls -l |grep -v original |grep -v common
+find . -name '*.jar' |xargs ls -l |grep -v original |grep -v common
+```
 
+```
 # Execution time
 
-$ time java -jar ./cayennedi/target/cayennedi-*.jar
-$ time java -jar ./dagger/target/dagger-*.jar
-$ time java -jar ./guice/target/guice-*.jar
-$ time java -jar ./owb/target/owb-*.jar
-$ time java -jar ./spring/target/spring-*.jar
-$ time java -jar ./springboot/target/springboot-*.jar
+time java -jar ./bootique2/target/bootique2-*.jar
+time java -jar ./cayennedi/target/cayennedi-*.jar
+time java -jar ./dagger/target/dagger-*.jar
+time java -jar ./guice/target/guice-*.jar
+time java -jar ./owb/target/owb-*.jar
+time java -jar ./spring/target/spring-*.jar
+time java -jar ./springboot/target/springboot-*.jar
+
 ```
 
 ## Results
