@@ -7,18 +7,14 @@
     <parent>
         <groupId>org.objectstyle.di</groupId>
         <artifactId>di-comparison</artifactId>
-         <version>1.0-SNAPSHOT</version>
+         <version>1.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>owb</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
     <packaging>jar</packaging>
 
     <properties>
         <main.class>org.objectstyle.owb.Main</main.class>
-
-        <owb.version>2.0.4</owb.version>
     </properties>
 
     <description>

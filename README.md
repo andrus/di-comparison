@@ -21,12 +21,13 @@ $ mvn clean package -o
 $ find . -name '*.jar' |xargs ls -l |grep -v original |grep -v common
 
 # Execution time
-$ time java -jar ./cayennedi/target/cayennedi-1.0-SNAPSHOT.jar
-$ time java -jar ./dagger/target/dagger-1.0-SNAPSHOT.jar
-$ time java -jar ./guice/target/guice-1.0-SNAPSHOT.jar
-$ time java -jar ./owb/target/owb-1.0-SNAPSHOT.jar
-$ time java -jar ./spring/target/spring-1.0-SNAPSHOT.jar
-$ time java -jar ./springboot/target/springboot-1.0-SNAPSHOT.jar
+
+$ time java -jar ./cayennedi/target/cayennedi-*.jar
+$ time java -jar ./dagger/target/dagger-*.jar
+$ time java -jar ./guice/target/guice-*.jar
+$ time java -jar ./owb/target/owb-*.jar
+$ time java -jar ./spring/target/spring-*.jar
+$ time java -jar ./springboot/target/springboot-*.jar
 ```
 
 ## Results
