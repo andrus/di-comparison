@@ -32,13 +32,14 @@ time java -jar ./springboot/target/springboot-*.jar
 
 ```
 
-## Results
+## Results (Java 8)
 
-|DI|Build Time, ms|Jar w/Deps Size, KB|:arrow_down: Exec time, ms|
-|----|-----|-----|----|
-|Dagger|1267|51|121|
-|Cayenne DI|91|79|180|
-|Guice|487|3440|358|
-|OpenWebBeans|361|1261|460|
-|Spring|486|3545|506|
-|Spring Boot|435|6993|1549|
+|DI|Jar w/Deps Size, KB|:arrow_down: Exec time, ms|
+|----|-----|----|
+|Dagger|46|104|
+|Cayenne DI|79|120|
+|Bootique 2|2522|244|
+|Guice|3781|328|
+|OpenWebBeans|1345|381|
+|Spring|3954|355|
+|Spring Boot|7824|1057|
