@@ -87,7 +87,7 @@
                     <dependency>
                         <groupId>org.apache.openwebbeans</groupId>
                         <artifactId>openwebbeans-maven</artifactId>
-                        <version>${owb.version}</version>
+                        <version>${owb.maven.version}</version>
                     </dependency>
                 </dependencies>
             </plugin>

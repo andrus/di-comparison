@@ -14,13 +14,14 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
-		<bootique2.version>2.0-SNAPSHOT</bootique2.version>
-        <dagger.version>2.27</dagger.version>
-        <guice.version>4.2.3</guice.version>
-        <cayenne.version>4.1.RC2</cayenne.version>
-        <owb.version>2.0.16</owb.version>
-        <spring.version>5.2.5.RELEASE</spring.version>
-        <springboot.version>2.2.6.RELEASE</springboot.version>
+		<bootique2.version>2.0.RC1</bootique2.version>
+        <dagger.version>2.40.5</dagger.version>
+        <guice.version>5.1.0</guice.version>
+        <cayenne.version>4.2.B1</cayenne.version>
+        <owb.version>2.0.25</owb.version>
+        <owb.maven.version>2.0.17</owb.maven.version>
+        <spring.version>5.3.15</spring.version>
+        <springboot.version>2.6.3</springboot.version>
     </properties>
 
     <modules>
