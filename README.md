@@ -22,7 +22,7 @@ find . -name '*.jar' |xargs ls -l |grep -v original |grep -v common
 ```
 # Execution time
 
-time java -jar ./bootique2/target/bootique2-*.jar
+time java -jar ./bootique/target/bootique-*.jar
 time java -jar ./cayennedi/target/cayennedi-*.jar
 time java -jar ./dagger/target/dagger-*.jar
 time java -jar ./guice/target/guice-*.jar
@@ -38,7 +38,7 @@ time java -jar ./springboot/target/springboot-*.jar
 |----|-----|----|
 |Dagger|46|104|
 |Cayenne DI|79|120|
-|Bootique 2|2522|244|
+|Bootique|2522|244|
 |Guice|3781|328|
 |OpenWebBeans|1345|381|
 |Spring|3954|355|

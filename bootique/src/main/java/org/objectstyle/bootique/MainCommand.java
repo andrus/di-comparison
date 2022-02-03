@@ -1,4 +1,4 @@
-package org.objectstyle.bootique2;
+package org.objectstyle.bootique;
 
 import io.bootique.cli.Cli;
 import io.bootique.command.Command;

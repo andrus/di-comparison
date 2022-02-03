@@ -1,4 +1,4 @@
-package org.objectstyle.bootique2;
+package org.objectstyle.bootique.rest;
 
 import org.objectstyle.di.service.Meter;
 import org.objectstyle.di.service.Service;
