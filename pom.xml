@@ -26,12 +26,14 @@
 
     <modules>
         <module>common</module>
-        <module>bootique2</module>
+        <module>bootique</module>
+        <module>bootique-rest</module>
         <module>dagger</module>
         <module>guice</module>
         <module>cayennedi</module>
         <module>spring</module>
         <module>springboot</module>
+        <module>springboot-rest</module>
         <module>owb</module>
     </modules>
 
