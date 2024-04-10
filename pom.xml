@@ -11,18 +11,18 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.release>11</maven.compiler.release>
+        <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<bootique.version>3.0-M3</bootique.version>
-        <dagger.version>2.40.5</dagger.version>
+        <dagger.version>2.51.1</dagger.version>
         <guice.version>5.1.0</guice.version>
-        <cayenne.version>4.2.B1</cayenne.version>
-        <owb.version>2.0.25</owb.version>
+        <cayenne.version>4.2</cayenne.version>
+        <owb.version>4.0.2</owb.version>
         <owb.maven.version>2.0.17</owb.maven.version>
-        <spring.version>5.3.15</spring.version>
-        <springboot.version>2.6.3</springboot.version>
+        <spring.version>6.1.5</spring.version>
+        <springboot.version>3.2.4</springboot.version>
     </properties>
 
     <modules>

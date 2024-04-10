@@ -29,17 +29,16 @@ time java -jar ./guice/target/guice-*.jar
 time java -jar ./owb/target/owb-*.jar
 time java -jar ./spring/target/spring-*.jar
 time java -jar ./springboot/target/springboot-*.jar
-
 ```
 
-## Results (Java 8)
+## Results (Java 21)
 
-|DI|Jar w/Deps Size, KB|:arrow_down: Exec time, ms|
-|----|-----|----|
-|Dagger|46|104|
-|Cayenne DI|79|120|
-|Bootique|2522|244|
-|Guice|3781|328|
-|OpenWebBeans|1345|381|
-|Spring|3954|355|
-|Spring Boot|7824|1057|
+|DI| Jar w/Deps Size, KB | :arrow_down: Exec time, ms |
+|----|---------------------|----------------------------|
+|Dagger| 58                  | 90                         |
+|Cayenne DI| 71                  | 105                        |
+|Bootique| 2894                | 157                        |
+|Guice| 3827                | 204                        |
+|OpenWebBeans| 1632                | ? (failures)               |
+|Spring| 4800                | 221                        |
+|Spring Boot| 10094               | 743                        |
