@@ -33,6 +33,8 @@ time java -jar ./springboot/target/springboot-*.jar
 
 ## Results (Java 21)
 
+_MacBook Pro 2021, 16GB RAM, OpenJDK Temurin-21+35_
+
 |DI| Jar w/Deps Size, KB | :arrow_down: Exec time, ms |
 |----|---------------------|----------------------------|
 |Dagger| 58                  | 90                         |
