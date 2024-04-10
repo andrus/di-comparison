@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<bootique2.version>2.0.RC1</bootique2.version>
+		<bootique.version>3.0-M3</bootique.version>
         <dagger.version>2.40.5</dagger.version>
         <guice.version>5.1.0</guice.version>
         <cayenne.version>4.2.B1</cayenne.version>

@@ -1,6 +1,7 @@
 package org.objectstyle.bootique;
 
 import io.bootique.BQCoreModule;
+import io.bootique.BQModule;
 import io.bootique.BaseModule;
 import io.bootique.di.Binder;
 import io.bootique.di.Provides;
@@ -11,7 +12,7 @@ import org.objectstyle.di.service.SubServiceImpl;
 
 import javax.inject.Singleton;
 
-public class MainModule extends BaseModule  {
+public class MainModule implements BQModule {
 
     @Override
     public void configure(Binder binder) {

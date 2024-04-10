@@ -22,7 +22,7 @@
             <dependency>
                 <groupId>io.bootique.bom</groupId>
                 <artifactId>bootique-bom</artifactId>
-                <version>${bootique2.version}</version>
+                <version>${bootique.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
