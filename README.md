@@ -14,14 +14,13 @@ Processing".
 mvn clean package
 ```
 
+### File sizes
 ```
-# Get the file sizes
 find . -name '*.jar' |xargs ls -l |grep -v original |grep -v common
 ```
 
+### Execution time
 ```
-# Execution time
-
 time java -jar ./bootique/target/bootique-*.jar
 time java -jar ./cayennedi/target/cayennedi-*.jar
 time java -jar ./dagger/target/dagger-*.jar
@@ -32,7 +31,6 @@ time java -jar ./springboot/target/springboot-*.jar
 ```
 
 ## Results (Java 21)
-
 _MacBook Pro 2021 M1, 16GB RAM, OpenJDK Temurin-21+35_
 
 |DI| Jar w/Deps Size, KB | :arrow_down: Exec time, ms |

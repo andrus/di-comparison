@@ -37,7 +37,7 @@
         </dependency>
         <dependency>
             <groupId>io.bootique.jersey</groupId>
-            <artifactId>bootique-jersey</artifactId>
+            <artifactId>bootique-jersey-jakarta</artifactId>
         </dependency>
         <dependency>
             <groupId>io.bootique.logback</groupId>
