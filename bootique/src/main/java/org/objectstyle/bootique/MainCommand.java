@@ -20,6 +20,7 @@ public class MainCommand implements Command {
     @Override
     public CommandOutcome run(Cli cli) {
         System.out.println(serviceProvider.get().doIt());
+        //        Meter.runMetrics();
         return CommandOutcome.succeeded();
     }
 }
